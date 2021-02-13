@@ -7,13 +7,12 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Minimum Studio</title>
-    <meta name="description" content="Minimum Studio website" />
-    <meta name="keywords" content="minimum studio" />
+    <title>Karolina Skorupksa</title>
+    <meta name="description" content="Karolina Skorupska Portfolio" />
+    <meta name="keywords" content="frontend developer" />
     
-    <?php
-        wp_head();
-    ?>
+    <?php wp_head(); ?>
+
 
     <link
       rel="stylesheet"
@@ -26,13 +25,30 @@
     <div class="container">
       <div class="header">
         <header>
-          <h1>HEADER</h1>
+          <div class="header-name">Karolina Skorupska</div>
+          <div class="header-social-media-icons">
+            <a
+              href="https://www.linkedin.com/in/karolina-skorupska/"
+              target="_blank"
+              ><img src="assets/linkedinIcon.png" alt="linkedin"
+            /></a>
+            <a href="https://github.com/karolinaskorupska" target="_blank"
+              ><img src="assets/githubIcon.png" alt="github"
+            /></a>
+          </div>
         </header>
       </div>
 
       <div class="main">
         <main>
-          <h2>MAIN</h2>
+          <div class="left">
+              <div class="1 frontend-developer">frontendDev</div>
+              <div class="2 gallery">gallery</div>
+          </div>
+          <div class="right">
+            <div class="3 technologies">technologies</div>
+            <div class="4 about-me">about-me</div>
+          </div>
         </main>
       </div>
     </div>
