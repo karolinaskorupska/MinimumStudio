@@ -24,7 +24,8 @@
       <div class="header">
         <header>
           <div class="header__logo">
-            <img scr="<?php echo get_template_directory_uri(); ?>/assets/images/icoms/minimum_logo.png" alt="logo Minimum Studio">
+            <img scr="<?php echo get_template_directory_uri(); ?>assets/images/icons/minimum_logo.png" alt="logo Minimum Studio">
+            <img scr="<?php echo get_template_directory_uri(); ?>assets/images/screenshot.png" alt="logo Minimum Studio">
           </div>
           <div clas="header__navigation">
             <div class="header__navigation navigation">

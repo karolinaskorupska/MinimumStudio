@@ -9,7 +9,6 @@ function minimumStudio_theme_support(){
 
 add_action('after_setup_theme', 'minimumStudio_theme_support');
 
-
 //menu 
 function minimumStudio_menus(){
     $locations = array(
