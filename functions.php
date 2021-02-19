@@ -26,7 +26,7 @@ function minimumStudio_register_styles(){
 
     $version = wp_get_theme()->get('Version');
 
-    wp_enqueue_style('minimumstudio-style', get_template_directory_uri()."/style.css", array("minimumstudio-fontawesome"), $version, 'all');
+    wp_enqueue_style('minimumstudio-style', get_template_directory_uri()."/css/style.css", array("minimumstudio-fontawesome"), $version, 'all');
     wp_enqueue_style('minimumstudio-fontawesome', "https://use.fontawesome.com/releases/v5.6.1/css/all.css", array(), '5.6.1', 'all');
 
 }

@@ -1,18 +1,10 @@
+/* reset */
 @import "generic/reset";
 
-/*settings*/
+/* variables*/
+@import "variables/colors";
+@import "variables/fonts";
 
-/*elements*/
+/* elements */
+@import "elements/body";
 @import "elements/header";
-@import "elements/main";
-
-//
-/*
-ThemeName: MinimumStudio
-Text Domain: MinimumStudio
-Version: 1.0
-Description: 
-Tags: responsive
-Author: Karolina Skorupska
-Author URI:  https://github.com/karolinaskorupska
-*/

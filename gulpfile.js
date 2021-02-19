@@ -20,7 +20,7 @@ gulp.task('sass', function(){
   .pipe(gulpif(PRODUCTION, postcss([ autoprefixer ])))
   .pipe(gulpif(PRODUCTION, cleanCss({compatibility:'ie8'})))
   .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
-  .pipe(gulp.dest("./"));
+  .pipe(gulp.dest("./css/"));
 });
 
 gulp.task("watch", function(){
