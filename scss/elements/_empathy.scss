@@ -1,3 +1,15 @@
 .empathy{
-    
+    width: 100%;
+
+    &__container{
+        width: 100%;
+
+        &__image-box{
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
 }

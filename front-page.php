@@ -131,17 +131,19 @@ get_header();
              Wszyscy jesteśmy połączeni: człowiek, firma i planeta tworzą jeden ekosystem, a każde działanie ma wpływ na jego równowagę.
              </p>
              <div class="what-for__container__image-box">
-                <div class="what-for__container__image-box--sticker">NAKLEJKA</div>
-                <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker">
+                  <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                
+                
              </div>
              <p class="what-for__container--paragraph2">
              Mając to na uwadze staramy się koncentrować nasze działania wokół potrzeb i problemów z jakimi zmaga się człowiek- odbiorca naszych działań.
              Coraz bardziej świadomi konsumenci szukają i doceniają rozwiązania przyjazne dla natury i realizowane w duchu zrównoważonego rozwoju.
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
              </p>
-             <div class="what-for__container__image-box">
-                <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
-             </div>
+
+             <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
              <p class="what-for__container--paragraph3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.
              Dlatego firmy muszą dostrzec konieczność dostosowania się do zmieniającej się rzeczywistości i zrozumieć, że korzystając z nowych rozwiązań są w stanie
@@ -154,7 +156,7 @@ get_header();
          </section>        
         
         <section class="section what-matters">
-          <h2>liczu się co</h2>
+          <h2>liczy się co</h2>
           <div class="what-matters__container">
             <div class="what-matters__container__1">
               <p class="what-matters__container--paragraph1">
@@ -171,7 +173,7 @@ get_header();
             </div>
           <div class="what-matters__container__2">
             <div class="what-matters__container__2__image-box">
-              DZIWNY OBRAZEK
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/process.png" alt="process image">
             </div>
             <div class="what-matters__container__2__text-box">
               <ul>
