@@ -13,6 +13,15 @@ h2{
     color:$basic;
     text-transform: uppercase;
     text-align: end;
+    
+}
+
+h3{
+    padding:10px;
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Tight;
 }
 
 p{
@@ -25,8 +34,10 @@ p{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-right: 10px;
 
     img{
+        display: block;
         width: 22px;
         padding:5px;
     }

@@ -40,13 +40,17 @@ get_header();
          <section class="section authentity">
            <h2>liczy się jak</h2>
            <div class="authentity__container">
+            <h3>autentyczność</h3>
+            <div class="authentity__container__image">
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lapka.png" alt="hand image">
+             </div>
              <div class="authentity__container__text">
-               <h3>autentyczność</h3>
+               
                <p class="authentity__container__text--paragraph1">
                Liczą się dla nas autentyczność i uczciowść, dlatego unikamy fałszu. Zaproponujemy Ci najbardziej optymalne rozwiązania, które zostały przebadane pod kątem ich wpływu na środowisko.
                </p>
              </div>
-             <div class="authentity__container__image">ŁAPKA OBRAZEK</div>
+
            </div>
            <div class="authentity arrow-up">
            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
@@ -57,8 +61,11 @@ get_header();
           <h2></h2>
           <div class="local__container">
               <div class="local__container__image-box">
-              <h3>lokalność</h3>
-              <div class="local__container__image">OBRAZEK ATOM</div>
+                <h3>lokalność</h3>
+                <div class="local__container__image">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/atom.png" alt="atom image">
+                </div>
+                <a>z kim współpracujemy?</a>
             </div>
           </div>
           <div class="local__container__text-box">
