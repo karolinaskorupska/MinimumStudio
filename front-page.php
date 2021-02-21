@@ -23,16 +23,18 @@ get_header();
            <h2>manifest</h2>
            <div class="manifestum__container">
              <p class="manifestum__container--paragraph1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
-              <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                <!-- <img src="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
              <p class="manifestum__container--paragraph2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
               My traktujemy ją jako wyzwanie, które pobudza nas do szukania kreatywnych rozwiązań.
               Chcemy Was przekonać, że w odpowiedzialnych działaniach liczy się nie tylko to, co robić, ale również to, czego nie robić i jak o tym mówić.</p>
              <p class="manifestum__container--paragraph3">Wasi Klienci już to wiedzą i czekają na Wasz krok.
               My pomożemy Wam go zrealizować.</p>
-                           <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
-              <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="arrow"> -->          
+                           
+              <!-- <img src="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->         
            </div>
-           <div class="manifestum arrow-up">ARROW</div>
+           <div class="manifestum arrow-up">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+           </div>
          </section>
 
          <section class="section authentity">
@@ -46,7 +48,9 @@ get_header();
              </div>
              <div class="authentity__container__image">ŁAPKA OBRAZEK</div>
            </div>
-           <div class="authentity arrow-up">ARROW</div>
+           <div class="authentity arrow-up">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+           </div>
          </section>
 
         <section class="section local">
@@ -62,7 +66,9 @@ get_header();
             Na globalne wyzwania odpowiadamy lokalnymi rozwiązaniami, tworzymy sieci współpracy z działającymi wokół nas projektantami, wytwórcami i producentami.
             </p>
           </div>
-          <div class="local arrow-up">ARROW</div>
+          <div class="local arrow-up">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up"> 
+          </div>
         </section>
 
         <section class="section minimalism">
@@ -81,7 +87,9 @@ get_header();
               </p>
             </div>
           </div>
-          <div class="minimalism arrow-up">ARROW</div>
+          <div class="minimalism arrow-up">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+          </div>
         </section>
 
         <section class="section empathy">
@@ -100,7 +108,9 @@ get_header();
               </p>
             </div>
           </div>
-          <div class="empathy arrow-up">ARROW</div>
+          <div class="empathy arrow-up">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+          </div>
         </section>
 
         <section class="section what-for">
@@ -127,7 +137,9 @@ get_header();
              nie tylko osiągnąć swój rozwój, ale przede wszystkim zbudować długofalową więź z odbiorcą.
              </p>
            </div>
-           <div class="what-for arrow-up">ARROW</div>
+           <div class="what-for arrow-up">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+           </div>
          </section>        
         
         <section class="section what-matters">
@@ -187,7 +199,9 @@ get_header();
           </div>
           
           </div>
-          <div class="what-matters arrow-up">ARROW</div>
+          <div class="what-matters arrow-up">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+          </div>
         </section>
         
         <section class="section we-are">
