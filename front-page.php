@@ -80,12 +80,13 @@ get_header();
 
         <section class="section minimalism">
           <h2></h2>
+          <h3>minimalizm</h3>
           <div class="minimalism__container">
             <div class="minimalism__container__image-box">
-            Link do PROJEKTY
+              <a href="#">projekty</a>
             </div>
             <div class="minimalism__container__text-box">
-              <h3>minimalizm</h3>
+              
               <p class="minimalism__container__text-box--paragraph1">
                 Widzimy, że zanieczyszczenie wizualne i szum komunikacyjny stają się coraz większym problemem, dlatego stawiamy na minimalizm w projektowaniu i myśleniu o projektowaniu.
               </p>
@@ -95,15 +96,18 @@ get_header();
             </div>
           </div>
           <div class="minimalism arrow-up">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
           </div>
         </section>
 
         <section class="section empathy">
-          <h2>empatia</h2>
+          <h2></h2>
+          <h3>empatia</h3>
           <div class="empathy__container">
             <div class="empathy__container__image-box">
-              <div class="empathy__container__image-box--image">OBRAZEK BUZIA</div>
+              <div class="empathy__container__image-box--image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oczy.png" alt="eyes image">
+              </div>
             </div>
             <div class="empathy__container__text-box">
               <p class="empathy__container__text-box--paragraph1">
