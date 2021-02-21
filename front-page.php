@@ -2,14 +2,21 @@
 get_header();
 ?>  
 
-      <div class="main">
+ 
         <main>
          <section class="section introduction">
            <div class="introduction__content">
-             <div class="introduction__content__stones-container">KAMLOTY</div>
-             <div class="introduction__content__badge-container">NAKLEJKA</div>
+             <div class="introduction__content__stones-container">
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/balance.png" alt="balance">
+             </div>
+             <div class="introduction__content__badge-container">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_header.png" alt="cloud-header">
+             </div>
            </div>
-           <div class="introduction__side-bar">strzałka i tekst z boku </div>
+           <div class="introduction__side-bar">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow_darkmode.png" alt="arrow darkmode" class="arrow-darkmode">
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/darkmode_text.png" alt="arrow darkmode" class="text-darkmode">
+           </div>
          </section>
 
          <section class="section manifestum">
@@ -217,7 +224,7 @@ get_header();
         
         </section>
         </main>
-      </div>
+      
  
 <?php
 get_footer();

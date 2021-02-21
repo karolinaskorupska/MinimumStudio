@@ -12,7 +12,7 @@ const autoprefixer = require('autoprefixer');
 const PRODUCTION = yargs.argv.prod;
 
 gulp.task('sass', function(){
-  return gulp.src("./scss/style.scss")
+  return gulp.src("./scss/main.scss")
   .pipe(sass({outputStyle:'compressed'}))
   .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
   .on('error', sass.logError)
@@ -20,7 +20,7 @@ gulp.task('sass', function(){
   .pipe(gulpif(PRODUCTION, postcss([ autoprefixer ])))
   .pipe(gulpif(PRODUCTION, cleanCss({compatibility:'ie8'})))
   .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
-  .pipe(gulp.dest("./css/"));
+  .pipe(gulp.dest("./"));
 });
 
 gulp.task("watch", function(){

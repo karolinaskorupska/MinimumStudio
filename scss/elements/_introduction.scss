@@ -1,0 +1,51 @@
+.introduction{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    &__content{
+        
+        width: 90%;
+        padding-top: 20%;
+        
+        &__stones-container{
+            
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80%;
+            }
+        }
+        &__badge-container{
+            
+            width: 100%;
+            padding:8%;
+            img{
+                width: 65%;
+            }
+        }
+
+    }
+    &__side-bar{
+        
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3px;
+
+        img.arrow-darkmode{
+            width: 30px;
+        }
+        img.text-darkmode{
+            width: 8px;
+        }
+    }
+
+
+
+}
