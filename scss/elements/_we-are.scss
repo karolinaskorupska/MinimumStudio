@@ -1,0 +1,33 @@
+.we-are {
+  width: 100%;
+  &__container {
+    width: 100%;
+
+    &__text-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p.close {
+        padding: 0 25px 0 20px;
+      }
+
+      img.mobile {
+        display: block;
+        width: 90%;
+        padding: 15px 0;
+      }
+
+      img.desktop {
+        display: none;
+      }
+
+      img.sticker {
+        display: block;
+        width: 60%;
+        padding: 15px 0;
+      }
+    }
+  }
+}

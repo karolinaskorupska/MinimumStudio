@@ -23,7 +23,9 @@ get_header();
            <h2>manifest</h2>
            <div class="manifestum__container">
              <p class="manifestum__container--paragraph1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
-                <!-- <img src="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto1.png" alt="photo" class="mobile">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="desktop">
+
              <p class="manifestum__container--paragraph2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
               My traktujemy ją jako wyzwanie, które pobudza nas do szukania kreatywnych rozwiązań.
               Chcemy Was przekonać, że w odpowiedzialnych działaniach liczy się nie tylko to, co robić, ale również to, czego nie robić i jak o tym mówić.</p>
@@ -131,9 +133,9 @@ get_header();
              Wszyscy jesteśmy połączeni: człowiek, firma i planeta tworzą jeden ekosystem, a każde działanie ma wpływ na jego równowagę.
              </p>
              <div class="what-for__container__image-box">
-                
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker">
-                  <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop"> -->
                 
                 
              </div>
@@ -143,7 +145,9 @@ get_header();
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
              </p>
 
-             <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile smaller">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
+             
              <p class="what-for__container--paragraph3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.
              Dlatego firmy muszą dostrzec konieczność dostosowania się do zmieniającej się rzeczywistości i zrozumieć, że korzystając z nowych rozwiązań są w stanie
@@ -221,19 +225,23 @@ get_header();
           <h2>my</h2>
           <div class="we-are__container">
             <div class="we-are__container__text-box">
-              <span class="we-are__container__text-box--span1">
-                Tak powstało MINIMUM STUDIO.</tr>
+              <p class="close">
+                Tak powstało MINIMUM STUDIO.<br></br>
                 Studio, które zaprojektuje dla Ciebie dobre rozwiązania.
-              </span>
-              <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
-              <span class="we-are__container__text-box--span2">
-                Jesteśmy rodziną. </tr>
-                Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach. </tr>
-                Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy. </tr>
-                Teraz wymyślamy dobre projekty.
-              </span>
+              </p>
 
-              <div class="we-are__container__text-box--sticker">NAKLEJKA</div>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto4.png" alt="photo" class="mobile">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto4desktop.png" alt="photo" class="desktop">
+              
+              <p class="close">
+                Jesteśmy rodziną. <br></br>
+                Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach. <br></br>
+                Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy. <br></br>
+                Teraz wymyślamy dobre projekty.
+              </p>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka3.png" alt="sticker" class="sticker">
 
               <p class="we-are__container__text-box-paragraph1">
               Gosia skończyła projektowanie graficzne na poznańskim Uniwersytecie Artystycznym i kulturoznawstwo na UAM. Jest doświadczoną graficzką i aktywistką, która od wielu lat walczy o to, co leży jej na sercu: o środowisko, zrównoważony rozwój i o innych. W pewnym momencie dostrzegła, że ludzie chcą zmian, ale nie zawsze znajdują na rynku odpowiedź na swoje potrzeby. Postanowiła zacząć działać szerzej, choć wtedy jeszcze nie wiedziała, jak połączyć odpowiedzialne działania z biznesem.

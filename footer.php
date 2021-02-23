@@ -1,28 +1,24 @@
-      <div class="footer">
-          <footer>
+            <footer>
               <div class="footer__photo-container">
-                    <div class="footer__photo-container--photo">
-                        <!-- <img scr="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->
+                    <div class="footer__photo-container__photo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto5.png" alt="photo" class="mobile">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto5desktop.png" alt="photo" class="desktop">
                     </div>
-                    <div class="footer__photo-container--logo">
-                        <img scr="<?php echo get_template_directory_uri(); ?>assets/images/icons/minimum_logo.png" alt="logo Minimum Studio">
+                    <div class="footer__photo-container__logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/minimum_logo.png" alt="logo Minimum Studio">
                     </div>
               </div>
               <div class="footer__contact-container">
                     <ul>
-                        <li>wysoka 12/17</li>
                         <li>poznań</li>
                         <li>poland</li>
                         <li>hello@minimumstudio.pl</li>
-                        <li><a href="#">projekty</a></li>
+                        <li><a href="#">instagram</a></li>
                     
                     </ul>
               </div>  
-          </footer>
-      </div>
+          </footer>     
     </div>
-
-
 </body>
 <?php 
 wp_footer(); 

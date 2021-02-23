@@ -1,0 +1,52 @@
+footer {
+  width: 100%;
+
+  padding-top: 50px;
+  .footer__photo-container {
+    width: 100%;
+    border-bottom: 1px solid $basic;
+    &__photo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img.mobile {
+        width: 95%;
+        padding: 15px 0;
+      }
+      img.desktop {
+        display: none;
+      }
+    }
+
+    &__logo {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .footer__contact-container{
+      ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          li{
+              font-size: 9px;
+              font-family: Narrow;
+              font-size: 9px;
+              padding: 0 5px;
+              text-transform: uppercase;
+
+            a{
+                text-decoration: none;
+                color: $basic;
+            }
+          }
+      }
+  }
+}
