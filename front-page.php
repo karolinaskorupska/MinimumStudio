@@ -135,7 +135,7 @@ get_header();
              <div class="what-for__container__image-box">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop"> -->
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop">
                 
                 
              </div>
@@ -145,9 +145,9 @@ get_header();
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
              </p>
 
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile smaller">
              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
-             
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile smaller">
+            
              <p class="what-for__container--paragraph3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.
              Dlatego firmy muszą dostrzec konieczność dostosowania się do zmieniającej się rzeczywistości i zrozumieć, że korzystając z nowych rozwiązań są w stanie

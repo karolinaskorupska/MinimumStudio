@@ -9,17 +9,39 @@
     width: 90%;
     padding-top: 20%;
 
+    @media (min-width: $xxxl) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 5%;
+    }
+
     &__stones-container {
       width: 100%;
       display: flex;
       justify-content: center;
+
+      @media (min-width: $xxxl) {
+        justify-content: flex-end;
+        padding-top: 10%;
+      }
       img {
         width: 80%;
+        @media (min-width: $xxxl) {
+          width: 60%;
+        }
       }
     }
     &__badge-container {
       width: 100%;
       padding: 8%;
+      @media (min-width: $xxxl) {
+        padding:0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 55%;
+      }
       img {
         width: 65%;
       }
@@ -33,11 +55,22 @@
     align-items: center;
     padding-right: 3px;
 
+    @media (min-width: $xxxl) {
+      width: 8%;
+      padding-right: 0;
+    }
+
     img.arrow-darkmode {
       width: 30px;
+      @media (min-width: $xxxl) {
+        width: 60px;
+      }
     }
     img.text-darkmode {
       width: 8px;
+      @media (min-width: $xxxl) {
+        width: 20px;
+      }
     }
   }
 }

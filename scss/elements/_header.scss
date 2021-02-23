@@ -5,27 +5,50 @@
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+
+  @media (min-width: $xxxl) {
+    width: 100%;
+    justify-content: space-between;
+  }
   &__logo {
     a {
       img {
         width: 170px;
+        @media (min-width: $xxxl) {
+          width: 500px;
+        }
       }
     }
   }
   &__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+
+    @media (min-width: $xxxl) {
+      justify-content: flex-end;
+      padding: 0 50px;
+    }
     nav {
+      @media (min-width: $xxxl) {
+        margin-right: 5%;
+      }
       ul {
         display: flex;
         flex-direction: row;
-        font-family: Narrow;
+        font-family: $Narrow;
         text-transform: uppercase;
         font-size: 12px;
+
+        @media (min-width: $xxxl) {
+          font-size: 28px;
+        }
         li {
           padding: 3px;
           a {
             text-decoration: none;
             color: $basic;
-            font-family: Narrow;
           }
 
           a:hover {
@@ -57,6 +80,12 @@
       background: $extraColor;
       transition: all 0.2s ease;
 
+      @media (min-width: $xxxl) {
+        height: 38px;
+        width: 63.3px;
+        border-radius: 36px;
+      }
+
       &::after {
         content: "";
         position: absolute;
@@ -68,6 +97,13 @@
         background: white;
         border: 1px solid $basic;
         transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+
+        @media (min-width: $xxxl) {
+          height: 25.3px;
+          width: 25.3px;
+          top: 4.1px;
+          left: 4.1px;
+        }
       }
       &:checked {
         border-color: $basic;

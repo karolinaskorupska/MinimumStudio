@@ -47,11 +47,13 @@
                     );
                   ?>
                 </nav>
-            
-          </div>
-          <div class="header__toggle-wrapper">
+
+            <div class="header__toggle-wrapper">
               <input type="checkbox" class="toggle">
             </div>
+            
+          </div>
+
           </div>
         </header>
       </div>
