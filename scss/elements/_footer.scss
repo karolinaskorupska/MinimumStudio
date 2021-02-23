@@ -29,24 +29,24 @@ footer {
     }
   }
 
-  .footer__contact-container{
-      ul{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          li{
-              font-size: 9px;
-              font-family: Narrow;
-              font-size: 9px;
-              padding: 0 5px;
-              text-transform: uppercase;
+  .footer__contact-container {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      li {
+        font-size: 9px;
+        font-family: Narrow;
+        font-size: 9px;
+        padding: 0 5px;
+        text-transform: uppercase;
 
-            a{
-                text-decoration: none;
-                color: $basic;
-            }
-          }
+        a {
+          text-decoration: none;
+          color: $basic;
+        }
       }
+    }
   }
 }

@@ -1,55 +1,49 @@
-body{
-    background-color: $background;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    overflow-x: hidden;
+body {
+  background-color: $background;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-h2{
-    padding:10px;
-    font-family: Tight;
-    font-size: 12px;
-    color:$basic;
-    text-transform: uppercase;
-    text-align: end;
-    
+h2 {
+  padding: 10px;
+  font-family: Tight;
+  font-size: 12px;
+  color: $basic;
+  text-transform: uppercase;
+  text-align: end;
 }
 
-h3{
-    padding:10px;
-    text-align: start;
-    text-transform: uppercase;
-    font-size: 28px;
-    font-family: Tight;
+h3 {
+  padding: 10px;
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: Tight;
 }
 
-p{
-    font-family: Narrow;
-    font-size: 18px;
-    color: $basic;
-    padding:10px 25px 10px 20px;
+p {
+  font-family: Narrow;
+  font-size: 18px;
+  color: $basic;
+  padding: 10px 25px 10px 20px;
 }
 
-.arrow-up{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
+.arrow-up {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
 
-    img{
-        display: block;
-        width: 22px;
-        padding:5px;
-    }
+  img {
+    display: block;
+    width: 22px;
+    padding: 5px;
+  }
 }
 
-section{
-    border-bottom: solid $basic 1px;
-    // padding:5px;
+section {
+  border-bottom: solid $basic 1px;
+  // padding:5px;
 }
-
-
-
-
-

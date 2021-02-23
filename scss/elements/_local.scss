@@ -1,33 +1,29 @@
-.local{
+.local {
+  width: 100%;
 
+  &__container {
     width: 100%;
-   
 
-    &__container{
+    position: relative;
+
+    &__image-box {
+      width: 100%;
+
+      img {
         width: 100%;
-        
-        position: relative;
-
-        &__image-box{
-            width: 100%;
-            
-            img{
-                width: 100%;
-                position: absolute;
-                
-            }
-        }
-
-        a{
-            
-            padding-top: 90%;
-            text-align: center;
-            display: block;
-            text-transform: uppercase;
-            text-decoration: underline;
-            font-family: Tight;
-            font-size: 12px;
-            padding-bottom: 8%;
-        }
+        position: absolute;
+      }
     }
+
+    a {
+      padding-top: 90%;
+      text-align: center;
+      display: block;
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-family: Tight;
+      font-size: 12px;
+      padding-bottom: 8%;
+    }
+  }
 }
