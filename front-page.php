@@ -130,17 +130,17 @@ get_header();
         <section class="section what-for">
            <h2>liczy się po co</h2>
            <div class="what-for__container">
-             <p class="what-for__container--paragraph1">
+             <p class="what-for__container--paragraph1 p1">
              Wszyscy jesteśmy połączeni: człowiek, firma i planeta tworzą jeden ekosystem, a każde działanie ma wpływ na jego równowagę.
              </p>
              <div class="what-for__container__image-box">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
                 
                 
              </div>
-             <p class="what-for__container--paragraph2">
+             <p class="what-for__container--paragraph2 p2">
              Mając to na uwadze staramy się koncentrować nasze działania wokół potrzeb i problemów z jakimi zmaga się człowiek- odbiorca naszych działań.
              Coraz bardziej świadomi konsumenci szukają i doceniają rozwiązania przyjazne dla natury i realizowane w duchu zrównoważonego rozwoju.
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
@@ -149,7 +149,7 @@ get_header();
              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile smaller">
             
-             <p class="what-for__container--paragraph3">
+             <p class="what-for__container--paragraph3 p3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.
              Dlatego firmy muszą dostrzec konieczność dostosowania się do zmieniającej się rzeczywistości i zrozumieć, że korzystając z nowych rozwiązań są w stanie
              nie tylko osiągnąć swój rozwój, ale przede wszystkim zbudować długofalową więź z odbiorcą.
@@ -203,13 +203,13 @@ get_header();
                   filmów i materiałów <span>wideo</span> oraz tworzeniem animacji.
                 </li>
               </ul>
-              <p class="what-matters__container__2__text-box--paragraph1">
+              <p class="what-matters__container__2__text-box--paragraph1 p1">
                 Badamy jak nasze projekty i produkty oddziaływują na otoczenie, jak jest ich cykl życia i informujemy o tym Klienta.
               </p>
-              <p class="what-matters__container__2__text-box--paragraph2">
+              <p class="what-matters__container__2__text-box--paragraph2 p2">
                 We współpracy z ekspertami z różnych dziedzin możemy przeprowadzić analizę i opracować wytyczne służące optymalizacji działalności klienta pod kontem jego wpływu na środowisko.
               </p>
-              <p class="what-matters__container__2__text-box--paragraph3">
+              <p class="what-matters__container__2__text-box--paragraph3 p3">
                 Zapraszamy do współpracy, </tr>
                 Gosia Ciernioch i Dominik Boberski
               </p>

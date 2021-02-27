@@ -8,6 +8,11 @@
     justify-content: center;
     align-items: center;
 
+    @media (min-width: $xxxl) {
+      position: relative;
+      display: block;
+    }
+
     &__image-box {
       width: 100%;
       display: flex;
@@ -15,22 +20,59 @@
       justify-content: center;
       align-items: center;
 
+      @media (min-width:$xxxl){
+        position: absolute;
+        width: 45%;
+        top: 3%;
+        right: 5%;
+      }
+
       img.sticker {
         padding: 15px 0;
         width: 60%;
       }
     }
-    img.mobile:last-of-type {
-      padding: 15px 0;
-      width: 60%;
-    }
-    img.mobile {
-      display: block;
-      width: 90%;
-      padding: 15px 0;
-    }
-    img.desktop {
-      display: none;
-    }
+
+      img.mobile {
+        display: block;
+        width: 90%;
+        padding: 15px 0;
+      }
+      img.desktop {
+        display: none;
+      }
+
+      img.mobile:last-of-type {
+        padding: 15px 0;
+        width: 60%;
+
+        @media (min-width: $xxxl){
+          display: block;
+          position: absolute;
+          left: -70%;
+          bottom: -50%;
+          width: 70%;
+        }
+      }
+
+      @media (min-width:$xxxl){
+        .p1{
+          width: 40%;
+          padding-top: 7%;
+        }
+        .p2{
+          width: 35%;
+          display: block;
+          padding-top: 2%;
+        }
+        .p3{
+          display: block;
+          width: 35%;
+          padding-top: 28%;
+          padding-left: 60%;
+          padding-bottom: 5%;
+        }
+      }
+
   }
 }
