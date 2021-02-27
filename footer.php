@@ -2,7 +2,7 @@
               <div class="footer__photo-container">
                     <div class="footer__photo-container__photo">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto5.png" alt="photo" class="mobile">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto5desktop.png" alt="photo" class="desktop">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto5.png" alt="photo" class="desktop">
                     </div>
                     <div class="footer__photo-container__logo">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/minimum_logo.png" alt="logo Minimum Studio">
