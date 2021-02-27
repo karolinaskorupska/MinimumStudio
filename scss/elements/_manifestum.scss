@@ -8,8 +8,9 @@
     align-items: center;
     width: 100%;
 
-    @media(min-width:$xxxl){
+    @media (min-width: $xxxl) {
       display: initial;
+      position: relative;
     }
 
     img.mobile {
@@ -17,7 +18,7 @@
       width: 90%;
       padding: 15px 0;
 
-      @media(min-width:$xxxl){
+      @media (min-width: $xxxl) {
         display: none;
       }
     }
@@ -25,9 +26,39 @@
     img.desktop {
       display: none;
 
-      @media(min-width:$xxxl){
+      @media (min-width: $xxxl) {
         display: block;
         width: 50%;
+        position: absolute;
+        &:first-of-type {
+          width: 110%;
+          top: 5%;
+          right: 8%;
+        }
+        &:last-of-type {
+          width: 55%;
+          top: 50%;
+          left: -70%;
+        }
+      }
+    }
+
+    @media (min-width: $xxxl) {
+      .p1 {
+        width: 40%;
+        float: left;
+        padding-top: 3%;
+        padding-left: 5%;
+      }
+      .p2{
+        width: 38%;
+        padding-top: 55%;
+      }
+      .p3{
+        width: 38%;
+        display: block;
+        padding: 3% 12%;
+        
       }
     }
   }

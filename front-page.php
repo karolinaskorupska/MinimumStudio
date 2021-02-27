@@ -22,14 +22,15 @@ get_header();
          <section class="section manifestum">
            <h2>manifest</h2>
            <div class="manifestum__container">
-             <p class="manifestum__container--paragraph1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
+             <p class="manifestum__container--paragraph1 p1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto1.png" alt="photo" class="mobile">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="desktop">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop">
 
-             <p class="manifestum__container--paragraph2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
+             <p class="manifestum__container--paragraph2 p2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
               My traktujemy ją jako wyzwanie, które pobudza nas do szukania kreatywnych rozwiązań.
               Chcemy Was przekonać, że w odpowiedzialnych działaniach liczy się nie tylko to, co robić, ale również to, czego nie robić i jak o tym mówić.</p>
-             <p class="manifestum__container--paragraph3">Wasi Klienci już to wiedzą i czekają na Wasz krok.
+             <p class="manifestum__container--paragraph3 p3">Wasi Klienci już to wiedzą i czekają na Wasz krok.
               My pomożemy Wam go zrealizować.</p>
                            
               <!-- <img src="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->         

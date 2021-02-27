@@ -1,5 +1,8 @@
 .authentity {
   width: 100%;
+  @media (min-width: $xxxl) {
+    position: relative;
+  }
 
   &__container {
     width: 100%;
@@ -9,12 +12,22 @@
 
       img {
         width: 100%;
+
+        @media (min-width: $xxxl) {
+          position: absolute;
+          width: 55%;
+          top: -10%;
+          right: 5%;
+        }
       }
     }
-  }
 
-  .arrow-up {
-    width: 100%;
-    justify-content: flex-end;
+    &__text{
+      
+      @media(min-width: $xxxl){
+        width: 45%;
+        padding-top: 25%;
+      }
+    }
   }
 }

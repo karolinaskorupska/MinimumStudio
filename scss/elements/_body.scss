@@ -26,6 +26,10 @@ h3 {
   text-transform: uppercase;
   font-size: 28px;
   font-family: Tight;
+  @media(min-width:$xxxl) {
+    font-size: 78px;
+    padding: 20px 60px;
+  }
 }
 
 p {
@@ -35,8 +39,10 @@ p {
   color: $basic;
   padding: 10px 25px 10px 20px;
   @media(min-width:$xxxl){
-    font-size: 28px;
+    font-size: 48px;
+    line-height: 60px;
     padding: 20px 50px;
+    display: inline-block;
   }
 }
 
@@ -50,6 +56,11 @@ p {
     display: block;
     width: 22px;
     padding: 5px;
+
+    @media(min-width:$xxxl) {
+      width: 52px;
+      padding: 0 3%;
+    }
   }
 }
 
