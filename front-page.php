@@ -108,7 +108,7 @@ get_header();
           <h3>empatia</h3>
           <div class="empathy__container">
             <div class="empathy__container__image-box">
-              <div class="empathy__container__image-box--image">
+              <div class="empathy__container__image-box__image">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oczy.png" alt="eyes image">
               </div>
             </div>

@@ -3,7 +3,6 @@
 
   &__container {
     width: 100%;
-
     position: relative;
 
     &__image-box {
@@ -12,6 +11,12 @@
       img {
         width: 100%;
         position: absolute;
+        
+        @media(min-width: $xxxl){
+          width: 60%;
+          top: 0;
+          left: 5%;
+        }
       }
     }
 
@@ -24,6 +29,23 @@
       font-family: Tight;
       font-size: 12px;
       padding-bottom: 8%;
+
+      @media(min-width: $xxxl){
+        position: absolute;
+        font-size: 38px;
+        top: 350%;
+        right: 10%;
+      }
+
+
+    }
+
+    @media (min-width: $xxxl) {
+      &__text-box {
+        width: 40%;
+        float: right;
+        padding: 30% 5% 5% 5%;
+      }
     }
   }
 }

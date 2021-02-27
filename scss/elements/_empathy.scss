@@ -4,11 +4,37 @@
   &__container {
     width: 100%;
 
+    @media (min-width: $xxxl) {
+      display: flex;
+    }
+
     &__image-box {
       width: 100%;
 
-      img {
-        width: 100%;
+      @media (min-width: $xxxl) {
+        width: 50%;
+      }
+
+      &__image {
+        @media (min-width: $xxxl) {
+          display: flex;
+          justify-content: center;
+        }
+
+        img {
+          width: 100%;
+
+          @media (min-width: $xxxl) {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    &__text-box {
+      @media (min-width: $xxxl) {
+        width: 50%;
+        padding: 3% 5%;
       }
     }
   }
