@@ -3,6 +3,10 @@
   &__container {
     width: 100%;
 
+    @media (min-width: $xxxl) {
+      position: relative;
+    }
+
     &__text-box {
       display: flex;
       flex-direction: column;
@@ -11,27 +15,74 @@
 
       p.close {
         padding: 0 25px 0 20px;
-        span{
+
+        @media (min-width: $xxxl) {
+          width: 45%;
+          align-self: flex-start;
+          border-right: 1px solid $basic;
+          padding-left: 5%;
+
+          &:first-of-type {
+            padding-bottom: 5%;
+            padding-top: 5%;
+          }
+        }
+        span {
           display: block;
+
+          &:last-of-type {
+            @media (min-width: $xxxl) {
+              border-bottom: 1px solid black;
+              padding-bottom: 15%;
+            }
+          }
         }
       }
 
-      p.about{
+      p.about {
         font-size: 14px;
         line-height: 18px;
         color: $basic;
         font-family: $Narrow;
         padding: 10px 25px 10px 20px;
+
+        @media (min-width: $xxxl) {
+          font-size: 42px;
+          line-height: 52px;
+          display: inline-block;
+          width: 45%;
+          align-self: start;
+          padding-left: 5%;
+          padding-top: 5%;
+          border-right: 1px solid black;
+
+          &:last-of-type{
+            padding-bottom: 10%;
+            margin-bottom: 5%;
+          }
+        }
       }
 
       img.mobile {
         display: block;
         width: 90%;
         padding: 15px 0;
+
+        @media (min-width:$xxxl){
+          display: none;
+        }
       }
 
       img.desktop {
         display: none;
+
+        @media (min-width:$xxxl){
+          display: block;
+          position: absolute;
+          top: 5%;
+          right: 5%;
+          width: 35%;
+        }
       }
 
       img.sticker {

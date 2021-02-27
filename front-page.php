@@ -256,6 +256,9 @@ get_header();
               </p>
             </div>
           </div>
+          <div class="we-are arrow-up">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
+          </div>
         
         
         </section>
