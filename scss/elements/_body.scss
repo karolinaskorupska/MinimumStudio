@@ -14,6 +14,10 @@ h2 {
   color: $basic;
   text-transform: uppercase;
   text-align: end;
+  @media(min-width:$xxxl){
+    font-size: 28px;
+    padding: 20px 50px;
+  }
 }
 
 h3 {
@@ -27,8 +31,13 @@ h3 {
 p {
   font-family: $Narrow;
   font-size: 18px;
+  line-height: 22px;
   color: $basic;
   padding: 10px 25px 10px 20px;
+  @media(min-width:$xxxl){
+    font-size: 28px;
+    padding: 20px 50px;
+  }
 }
 
 .arrow-up {

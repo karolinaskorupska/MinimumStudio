@@ -32,6 +32,10 @@
         color: $basic;
 
         ul {
+          font-family: $Narrow;
+          font-size: 18px;
+          line-height: 22px;
+          color: $basic;
           padding: 10px 25px 10px 20px;
           list-style-position: outside;
           list-style-type: none;

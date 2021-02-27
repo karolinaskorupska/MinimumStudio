@@ -28,12 +28,8 @@
 
     @media (min-width: $xxxl) {
       justify-content: flex-end;
-      padding: 0 50px;
     }
     nav {
-      @media (min-width: $xxxl) {
-        margin-right: 5%;
-      }
       ul {
         display: flex;
         flex-direction: row;
@@ -59,6 +55,10 @@
     }
   }
   &__toggle-wrapper {
+    @media(min-width:$xxxl){
+      padding: 0 7%;
+    }
+
     input[type="checkbox"] {
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -84,6 +84,7 @@
         height: 38px;
         width: 63.3px;
         border-radius: 36px;
+
       }
 
       &::after {

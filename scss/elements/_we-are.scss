@@ -11,6 +11,17 @@
 
       p.close {
         padding: 0 25px 0 20px;
+        span{
+          display: block;
+        }
+      }
+
+      p.about{
+        font-size: 14px;
+        line-height: 18px;
+        color: $basic;
+        font-family: $Narrow;
+        padding: 10px 25px 10px 20px;
       }
 
       img.mobile {

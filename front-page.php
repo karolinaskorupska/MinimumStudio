@@ -226,7 +226,7 @@ get_header();
           <div class="we-are__container">
             <div class="we-are__container__text-box">
               <p class="close">
-                Tak powstało MINIMUM STUDIO.<br></br>
+                Tak powstało MINIMUM STUDIO.
                 Studio, które zaprojektuje dla Ciebie dobre rozwiązania.
               </p>
 
@@ -235,21 +235,21 @@ get_header();
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto4desktop.png" alt="photo" class="desktop">
               
               <p class="close">
-                Jesteśmy rodziną. <br></br>
-                Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach. <br></br>
-                Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy. <br></br>
-                Teraz wymyślamy dobre projekty.
+                <span>Jesteśmy rodziną. </span>
+                <span>Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach.  </span>                            
+                <span>Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy.          </span>                              
+                <span>Teraz wymyślamy dobre projekty.                   
               </p>
 
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka3.png" alt="sticker" class="sticker">
 
-              <p class="we-are__container__text-box-paragraph1">
+              <p class="about">
               Gosia skończyła projektowanie graficzne na poznańskim Uniwersytecie Artystycznym i kulturoznawstwo na UAM. Jest doświadczoną graficzką i aktywistką, która od wielu lat walczy o to, co leży jej na sercu: o środowisko, zrównoważony rozwój i o innych. W pewnym momencie dostrzegła, że ludzie chcą zmian, ale nie zawsze znajdują na rynku odpowiedź na swoje potrzeby. Postanowiła zacząć działać szerzej, choć wtedy jeszcze nie wiedziała, jak połączyć odpowiedzialne działania z biznesem.
               </p>
-              <p class="we-are__container__text-box-paragraph2">
+              <p class="about">
                 Dominik studiował projektowanie graficzne na Wydziale Artystycznym zielonogórskiego Uniwersytetu i Intermedia na poznańskim Uniwersytecie Artystycznym. Od kilkunastu lat pracuje w agencjach reklamowych. Projektuje dla dużych i małych firm kampanie, strony internetowe, identyfikacje wizualne i druki. Zaczęło mu doskwierać, jak mało jest w nich autentyczności i odpowiedzialnych działań. Zapytał sam siebie, czy można działać inaczej?
               </p>
-              <p class="we-are__container__text-box-paragraph3">
+              <p class="about">
                 Gosia i Dominik spotkali się na kawie.</tr>
                 Wymyślili, że można połączyć wiedzę i zaangażowanie Gosi z doświadczeniem Dominika z zakresu projektowania dla biznesu i uznali, że działania, które nie szkodzą są koniecznością. Potrzebujemy ich na każdym kroku, a etyczny biznes to nowy biznes. 
               </p>
