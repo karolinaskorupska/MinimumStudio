@@ -8,11 +8,6 @@
     &__2 {
       width: 100%;
 
-      @media (min-width: $xxxl) {
-        width: 90%;
-        padding: 5%;
-      }
-
       p {
         span {
           background-color: $extraColor;
@@ -20,7 +15,22 @@
       }
     }
 
+    &__1{
+      @media(min-width: $xxxl){
+        border-bottom: 1px solid $basic;
+        margin:5%;
+        padding-bottom: 5%;
+      }
+    }
+
     &__2 {
+
+      @media(min-width:$xxxl){
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding:  0 5%;
+      }
       &__image-box {
         width: 100%;
         display: flex;
@@ -29,13 +39,13 @@
 
         @media (min-width: $xxxl) {
           width: 50%;
-          border-top: 1px solid $basic;
         }
         img {
           width: 70%;
 
           @media (min-width:$xxxl){
-            width: 120%;
+            display: block;
+            padding-top: 25%;
           }
         }
       }
@@ -46,8 +56,7 @@
         color: $basic;
 
         @media (min-width: $xxxl) {
-          width: 50%;
-          border-top: 1px solid $basic;
+          width: 45%;
         }
 
         ul {
@@ -61,8 +70,8 @@
           list-style-image: url("assets/images/icons/cross.png");
 
           @media (min-width: $xxxl) {
-            width: 50%;
-            border-top: 1px solid $basic;
+            width: 100%;
+            padding-left: 8%;
             font-size: 48px;
             line-height: 60px;
             padding: 20px 50px;
@@ -81,6 +90,8 @@
         @media (min-width: $xxxl){
           .p1, .p2, .p3{
             border-left: 1px solid $basic;
+            width: 100%;
+            padding-left: 8%;
           }
         }
       }

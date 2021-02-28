@@ -24,8 +24,8 @@ get_header();
            <div class="manifestum__container">
              <p class="manifestum__container--paragraph1 p1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto1.png" alt="photo" class="mobile">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="desktop">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="desktop first">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop second">
 
              <p class="manifestum__container--paragraph2 p2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
               My traktujemy ją jako wyzwanie, które pobudza nas do szukania kreatywnych rozwiązań.
@@ -135,8 +135,8 @@ get_header();
              </p>
              <div class="what-for__container__image-box">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile first">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop first">
                 
                 
              </div>
@@ -146,8 +146,8 @@ get_header();
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
              </p>
 
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop">
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile smaller">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop second">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile second">
             
              <p class="what-for__container--paragraph3 p3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.

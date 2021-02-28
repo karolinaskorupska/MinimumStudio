@@ -20,7 +20,7 @@
       justify-content: center;
       align-items: center;
 
-      @media (min-width:$xxxl){
+      @media (min-width: $xxxl) {
         position: absolute;
         width: 45%;
         top: 3%;
@@ -33,46 +33,67 @@
       }
     }
 
-      img.mobile {
+    img.mobile.first {
+      display: block;
+      width: 90%;
+      padding: 15px 0;
+
+      @media (min-width: $xxxl) {
+        display: none;
+      }
+    }
+    img.desktop.first {
+      display: none;
+
+      @media (min-width: $xxxl) {
         display: block;
         width: 90%;
         padding: 15px 0;
       }
-      img.desktop {
-        display: none;
+    }
+
+    img.mobile.second {
+      padding: 15px 0;
+      width: 60%;
+
+      @media (min-width: $xxxl) {
+        display: block;
+        position: absolute;
+        left: -70%;
+        bottom: -50%;
+        width: 70%;
       }
+    }
 
-      img.mobile:last-of-type {
-        padding: 15px 0;
-        width: 60%;
+    img.desktop.second {
+      display: none;
 
-        @media (min-width: $xxxl){
-          display: block;
-          position: absolute;
-          left: -70%;
-          bottom: -50%;
-          width: 70%;
-        }
+      @media (min-width: $xxxl) {
+        display: block;
+        position: absolute;
+        width: 45%;
+        bottom: 10%;
+        left: 5%;
       }
+    }
 
-      @media (min-width:$xxxl){
-        .p1{
-          width: 40%;
-          padding-top: 7%;
-        }
-        .p2{
-          width: 35%;
-          display: block;
-          padding-top: 2%;
-        }
-        .p3{
-          display: block;
-          width: 35%;
-          padding-top: 28%;
-          padding-left: 60%;
-          padding-bottom: 5%;
-        }
+    @media (min-width: $xxxl) {
+      .p1 {
+        width: 40%;
+        padding-top: 7%;
       }
-
+      .p2 {
+        width: 35%;
+        display: block;
+        padding-top: 2%;
+      }
+      .p3 {
+        display: block;
+        width: 35%;
+        padding-top: 28%;
+        padding-left: 60%;
+        padding-bottom: 5%;
+      }
+    }
   }
 }
