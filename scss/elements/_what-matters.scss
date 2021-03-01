@@ -8,6 +8,10 @@
     &__2 {
       width: 100%;
 
+      @media (min-width: $xxxl){
+        width: 90%;
+      }
+
       p {
         span {
           background-color: $extraColor;
@@ -68,6 +72,7 @@
           list-style-position: outside;
           list-style-type: none;
           list-style-image: url("assets/images/icons/cross.png");
+          margin-left: -2%;
 
           @media (min-width: $xxxl) {
             width: 100%;
@@ -92,6 +97,7 @@
             border-left: 1px solid $basic;
             width: 100%;
             padding-left: 8%;
+            margin-left: -2%;
           }
         }
       }

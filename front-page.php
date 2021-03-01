@@ -136,7 +136,7 @@ get_header();
              <div class="what-for__container__image-box">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile first">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop first">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="desktop first">
                 
                 
              </div>
