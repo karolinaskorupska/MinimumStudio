@@ -31,23 +31,16 @@
         padding: 15px 0;
         width: 60%;
 
-        @media (min-width: $xxxl){
+        @media (min-width: $xxxl) {
           width: 50%;
         }
       }
     }
 
-    img.mobile.first {
+    img.first {
       display: block;
       width: 90%;
       padding: 15px 0;
-
-      @media (min-width: $xxxl) {
-        display: none;
-      }
-    }
-    img.desktop.first {
-      display: none;
 
       @media (min-width: $xxxl) {
         display: block;
@@ -56,18 +49,9 @@
       }
     }
 
-    img.mobile.second {
+    img.second {
       padding: 15px 0;
       width: 60%;
-
-      @media (min-width: $xxxl) {
-        display: none;
-      }
-
-    }
-
-    img.desktop.second {
-      display: none;
 
       @media (min-width: $xxxl) {
         display: block;

@@ -23,17 +23,15 @@ get_header();
            <h2>manifest</h2>
            <div class="manifestum__container">
              <p class="manifestum__container--paragraph1 p1">Uważamy, że aby osiągnąć balans potrzebujemy rozwiązań, które są odważne i radykalne. I potrzebujemy ich teraz. To nie musi byc trudne.</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto1.png" alt="photo" class="mobile">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="desktop first">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="desktop second">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto1desktop.png" alt="photo" class="first">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto2desktop.png" alt="photo" class="second">
 
              <p class="manifestum__container--paragraph2 p2">Dla nas każda zmiana jest ważna i prowadzi do rozwoju. Ekologia to już nie tylko modny trend, ale konieczność. 
               My traktujemy ją jako wyzwanie, które pobudza nas do szukania kreatywnych rozwiązań.
               Chcemy Was przekonać, że w odpowiedzialnych działaniach liczy się nie tylko to, co robić, ale również to, czego nie robić i jak o tym mówić.</p>
              <p class="manifestum__container--paragraph3 p3">Wasi Klienci już to wiedzą i czekają na Wasz krok.
               My pomożemy Wam go zrealizować.</p>
-                           
-              <!-- <img src="<?php echo get_template_directory_uri(); ?>" alt="photo"> -->         
+                    
            </div>
            <div class="manifestum arrow-up">
              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up">
@@ -61,7 +59,7 @@ get_header();
          </section>
 
         <section class="section local">
-          <h2></h2>
+          
           <div class="local__container">
               <div class="local__container__image-box">
                 <h3>lokalność</h3>
@@ -82,11 +80,11 @@ get_header();
         </section>
 
         <section class="section minimalism">
-          <h2></h2>
+          
           <h3>minimalizm</h3>
           <div class="minimalism__container">
             <div class="minimalism__container__image-box">
-              <a href="#">projekty</a>
+              <a>projekty</a>
             </div>
             <div class="minimalism__container__text-box">
               
@@ -104,7 +102,7 @@ get_header();
         </section>
 
         <section class="section empathy">
-          <h2></h2>
+          
           <h3>empatia</h3>
           <div class="empathy__container">
             <div class="empathy__container__image-box">
@@ -135,8 +133,7 @@ get_header();
              </p>
              <div class="what-for__container__image-box">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka_what-for.png" alt="sticker" class="sticker">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="mobile first">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="desktop first">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto2.png" alt="photo" class="first">
                 
                 
              </div>
@@ -146,8 +143,7 @@ get_header();
              W dobie dostępu do informacji liczy się dla nich autentyczność i transparentność.
              </p>
 
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="desktop second">
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto3.png" alt="photo" class="mobile second">
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto3desktop.png" alt="photo" class="second">
             
              <p class="what-for__container--paragraph3 p3">
              Nieodpowiedzialne działania przedsiębiorstw szkodzą nie tylko środowisku, ale również ich zewnętrznym relacjom.
@@ -210,7 +206,7 @@ get_header();
                 We współpracy z ekspertami z różnych dziedzin możemy przeprowadzić analizę i opracować wytyczne służące optymalizacji działalności klienta pod kontem jego wpływu na środowisko.
               </p>
               <p class="what-matters__container__2__text-box--paragraph3 p3">
-                Zapraszamy do współpracy, </tr>
+                Zapraszamy do współpracy, 
                 Gosia Ciernioch i Dominik Boberski
               </p>
             </div>

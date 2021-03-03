@@ -5,6 +5,10 @@
     width: 100%;
     position: relative;
 
+    @media(min-width: $xxxl){
+      padding-top: 70px;
+    }
+
     &__image-box {
       width: 100%;
 

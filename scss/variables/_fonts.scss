@@ -1,28 +1,28 @@
 /*change path to the server */
 @font-face {
   font-family: Grand-Light;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-GrandLight.woff");
+  src: url("/wp-content/themes/MinimumStudio/fonts/Agrandir-GrandLight.woff");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Narrow;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-Narrow.woff");
+  src: url("/wp-content/themes/MinimumStudio/fonts/Agrandir-Narrow.woff");
   font-weight: normal;
 }
 
 
 @font-face {
   font-family: Tight;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-Tight.woff");
+  src: url("/wp-content/themes/MinimumStudio/fonts/Agrandir-Tight.woff");
   font-weight: normal;
 }
 
-@font-face {
-  font-family: Tight-Light;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-TightLight.otf");
-  font-weight: normal;
-}
+// @font-face {
+//   font-family: Tight-Light;
+//   src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-TightLight.otf");
+//   font-weight: normal;
+// }
 
 $GrandLight : "Grand-Light", sans-serif;
 $Narrow : "Narrow", sans-serif;

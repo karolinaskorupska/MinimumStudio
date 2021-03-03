@@ -7,6 +7,7 @@
     @media(min-width:$xxxl) {
       display: flex;
       flex-direction: row-reverse;
+      padding-top: 70px;
     }
 
     &__image-box {
