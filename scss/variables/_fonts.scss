@@ -18,13 +18,13 @@
   font-weight: normal;
 }
 
-// @font-face {
-//   font-family: Tight-Light;
-//   src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-TightLight.otf");
-//   font-weight: normal;
-// }
+@font-face {
+  font-family: Narrow-Light;
+  src: url("/wp-content/themes/MinimumStudio/fonts/Agrandir-NarrowLight.woff2");
+  font-weight: normal;
+}
 
 $GrandLight : "Grand-Light", sans-serif;
 $Narrow : "Narrow", sans-serif;
 $Tight : "Tight", sans-serif;
-$TightLight : "Tight-Light", sans-serif;
+$NarrowLight : "Tight-Light", sans-serif;

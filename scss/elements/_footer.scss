@@ -9,16 +9,10 @@ footer {
       width: 100%;
       display: flex;
       justify-content: center;
-      img.mobile {
+      img {
         width: 95%;
         padding: 15px 0;
 
-        @media (min-width: $xxxl) {
-          display: none;
-        }
-      }
-      img.desktop {
-        display: none;
         @media (min-width: $xxxl) {
           display: block;
           width: 90%;
