@@ -59,6 +59,11 @@
     img.mobile.second {
       padding: 15px 0;
       width: 60%;
+
+      @media (min-width: $xxxl) {
+        display: none;
+      }
+
     }
 
     img.desktop.second {
@@ -68,7 +73,7 @@
         display: block;
         position: absolute;
         width: 40%;
-        bottom: 10%;
+        bottom: 5%;
         left: 10%;
       }
     }
@@ -86,7 +91,7 @@
       .p3 {
         display: block;
         width: 40%;
-        padding: 15% 0 5% 55%;
+        padding: 20% 0 5% 55%;
       }
     }
   }

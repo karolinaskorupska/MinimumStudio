@@ -23,6 +23,26 @@
       }
     }
 
+    .first {
+      @media (min-width: $xxxl) {
+        display: block;
+        position: absolute;
+        width: 110%;
+        top: 5%;
+        right: 8%;
+      }
+    }
+
+    .second {
+      @media (min-width: $xxxl) {
+        display: block;
+        position: absolute;
+        width: 55%;
+        top: 50%;
+        left: -70%;
+      }
+    }
+
     img.desktop {
       display: none;
 
@@ -30,16 +50,16 @@
         display: block;
         position: absolute;
 
-        .first {
-          width: 110%;
-          top: 5%;
-          right: 8%;
-        }
-        .second {
-          width: 55%;
-          top: 50%;
-          left: -70%;
-        }
+        // .first {
+        //   width: 110%;
+        //   top: 5%;
+        //   right: 8%;
+        // }
+        // .second {
+        //   width: 55%;
+        //   top: 50%;
+        //   left: -70%;
+        // }
       }
     }
 

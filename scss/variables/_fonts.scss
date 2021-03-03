@@ -1,19 +1,20 @@
 /*change path to the server */
 @font-face {
   font-family: Grand-Light;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-GrandLight.otf");
+  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-GrandLight.woff");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Narrow;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir font/web/Agrandir - Narrow Regular/Agrandir-Narrow.woff2");
+  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-Narrow.woff");
   font-weight: normal;
 }
 
+
 @font-face {
   font-family: Tight;
-  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-Tight.otf");
+  src: url("http://karolina.local/wp-content/themes/MinimumStudio/fonts/Agrandir-Tight.woff");
   font-weight: normal;
 }
 
@@ -23,7 +24,7 @@
   font-weight: normal;
 }
 
-$GrandLight : "Grand-Light", Arial, sans-serif;
-$Narrow : "Narrow", Arial, sans-serif;
-$Tight : "Tight", Arial, sans-serif;
-$TightLight : "Tight-Light", Arial, sans-serif;
+$GrandLight : "Grand-Light", sans-serif;
+$Narrow : "Narrow", sans-serif;
+$Tight : "Tight", sans-serif;
+$TightLight : "Tight-Light", sans-serif;

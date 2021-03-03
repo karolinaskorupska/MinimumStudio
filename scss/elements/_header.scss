@@ -35,7 +35,7 @@
         flex-direction: row;
         font-family: $Narrow;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 10px;
 
         @media (min-width: $xxxl) {
           font-size: 28px;
@@ -54,6 +54,7 @@
       }
     }
   }
+  
   &__toggle-wrapper {
     @media(min-width:$xxxl){
       padding: 0 5%;
