@@ -4,7 +4,12 @@ footer {
   padding-top: 50px;
   .footer__photo-container {
     width: 100%;
-    border-bottom: 1px solid $basic;
+    border-bottom: 0.5px solid $basic;
+
+    @media (min-width: $xxxl){
+      border-bottom: 1px solid $basic;
+    }
+
     &__photo {
       width: 100%;
       display: flex;

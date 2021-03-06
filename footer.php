@@ -1,7 +1,7 @@
             <footer>
               <div class="footer__photo-container">
                     <div class="footer__photo-container__photo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto5.png" alt="photo" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto5desktop.png" alt="photo" >
                     </div>
                     <div class="footer__photo-container__logo">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/minimum_logo.png" alt="logo Minimum Studio">
