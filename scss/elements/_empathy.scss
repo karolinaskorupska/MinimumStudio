@@ -3,10 +3,10 @@
 
   &__container {
     width: 100%;
+  
 
     @media (min-width: $xxxl) {
       display: flex;
-      padding-top: 70px;
     }
 
     &__image-box {

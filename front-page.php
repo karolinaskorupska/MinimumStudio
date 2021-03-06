@@ -80,7 +80,7 @@ get_header();
         </section>
 
         <section class="section minimalism">
-          
+          <h2></h2>
           <h3>minimalizm</h3>
           <div class="minimalism__container">
             <div class="minimalism__container__image-box">
@@ -102,7 +102,7 @@ get_header();
         </section>
 
         <section class="section empathy">
-          
+          <h2></h2>
           <h3>empatia</h3>
           <div class="empathy__container">
             <div class="empathy__container__image-box">
@@ -161,14 +161,14 @@ get_header();
           <div class="what-matters__container">
             <div class="what-matters__container__1">
               <p class="what-matters__container--paragraph1">
-                <span>Lubimy i robimy projektowanie graficzne</span>
-                Zajmujemy się zarówno kompleksowym opracowaniem i wykonaniem identyfikacji wizualnej marek, jak i projektowaniem druków i opakowań,
-                tworzeniem stron i aplikacji, wymyślaniem gadżetów, a przy okazji badaniem, jak nasze projekty i produkty oddziałują na otoczenie.
+                <span>Lubimy i robimy projektowanie graficzne.</span>
+                Zajmujemy się zarówno </br> kompleksowym opracowaniem i wykonaniem identyfikacji wizualnej marek,</br> jak i projektowaniem druków i opakowań,
+                tworzeniem stron i aplikacji,</br> wymyślaniem gadżetów, a przy okazji badaniem, jak nasze projekty i </br>produkty oddziałują na otoczenie.
               </p>
               <p class="what-matters__container--paragraph2">
-              Zawsze zaczynamy od rozmowy i zastanowienia się, kto jest Twoim odbiorcą i jakie są jego potrzeby, jakimi wartościami kieruje się Twoja marka i w jaki
-              sposób możemy to połączyć tworząc odpowiednią identyfikację wizualną.
-              Ustalamy cele i założenia. Kolejnym ważnym krokiem jest praca nad znakiem firmowym, a następnie budujemy całe środowisko materiałów 
+              Zawsze zaczynamy od rozmowy i zastanowienia się, kto jest Twoim odbiorcą</br> i jakie są jego potrzeby, jakimi wartościami kieruje się Twoja marka i w jaki</br>
+              sposób możemy to połączyć tworząc odpowiednią identyfikację wizualną.</br>
+              Ustalamy cele i założenia. Kolejnym ważnym krokiem jest praca nad znakiem</br> firmowym, a następnie budujemy całe środowisko materiałów 
               (obejmujące takie obszary jak druki firmowe, promocja, outdoor, przestrzeń internetu), tworzące czytelny i spójny wizerunek  Twojej działalności.
               </p>
             </div>
@@ -222,34 +222,43 @@ get_header();
           <h2>my</h2>
           <div class="we-are__container">
             <div class="we-are__container__text-box">
-              <p class="close">
-                Tak powstało MINIMUM STUDIO.
-                Studio, które zaprojektuje dla Ciebie dobre rozwiązania.
-              </p>
 
-
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/mobile/foto4.png" alt="photo" class="mobile">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto4desktop.png" alt="photo" class="desktop">
+ 
+            <p class="close">
+              Tak powstało MINIMUM STUDIO. </br>
+              Studio, które zaprojektuje dla Ciebie dobre rozwiązania.
+            </p>
               
-              <p class="close">
-                <span>Jesteśmy rodziną. </span>
-                <span>Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach.  </span>                            
-                <span>Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy.          </span>                              
-                <span>Teraz wymyślamy dobre projekty.                   
-              </p>
+              
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photos/desktop/foto4desktop.png" alt="photo" class="desktop">
+              
+              
+              
+            <span>Jesteśmy rodziną. </span>
+            <span>Wychowywaliśmy się razem w wielopokoleniowym domu na poznańskich Podolanach.  </span>                            
+            <span>Jako dzieci biegaliśmy razem po okolicy i wymyślaliśmy dobre zabawy.          </span>                              
+            <span>Teraz wymyślamy dobre projekty.  </span>                 
+
+          
 
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chmurka3.png" alt="sticker" class="sticker">
 
-              <p class="about">
-              Gosia skończyła projektowanie graficzne na poznańskim Uniwersytecie Artystycznym i kulturoznawstwo na UAM. Jest doświadczoną graficzką i aktywistką, która od wielu lat walczy o to, co leży jej na sercu: o środowisko, zrównoważony rozwój i o innych. W pewnym momencie dostrzegła, że ludzie chcą zmian, ale nie zawsze znajdują na rynku odpowiedź na swoje potrzeby. Postanowiła zacząć działać szerzej, choć wtedy jeszcze nie wiedziała, jak połączyć odpowiedzialne działania z biznesem.
-              </p>
-              <p class="about">
-                Dominik studiował projektowanie graficzne na Wydziale Artystycznym zielonogórskiego Uniwersytetu i Intermedia na poznańskim Uniwersytecie Artystycznym. Od kilkunastu lat pracuje w agencjach reklamowych. Projektuje dla dużych i małych firm kampanie, strony internetowe, identyfikacje wizualne i druki. Zaczęło mu doskwierać, jak mało jest w nich autentyczności i odpowiedzialnych działań. Zapytał sam siebie, czy można działać inaczej?
-              </p>
-              <p class="about">
-                Gosia i Dominik spotkali się na kawie.</tr>
-                Wymyślili, że można połączyć wiedzę i zaangażowanie Gosi z doświadczeniem Dominika z zakresu projektowania dla biznesu i uznali, że działania, które nie szkodzą są koniecznością. Potrzebujemy ich na każdym kroku, a etyczny biznes to nowy biznes. 
-              </p>
+              
+                <p class="about">
+                Gosia skończyła projektowanie graficzne na poznańskim Uniwersytecie Artystycznym i kulturoznawstwo na UAM. Jest doświadczoną graficzką i aktywistką, która od wielu lat walczy o to, co leży jej na sercu: o środowisko, zrównoważony rozwój i o innych. W pewnym momencie dostrzegła, że ludzie chcą zmian, ale nie zawsze znajdują na rynku odpowiedź na swoje potrzeby. Postanowiła zacząć działać szerzej, choć wtedy jeszcze nie wiedziała, jak połączyć odpowiedzialne działania z biznesem.
+                </p>
+              
+              
+                <p class="about">
+                  Dominik studiował projektowanie graficzne na Wydziale Artystycznym zielonogórskiego Uniwersytetu i Intermedia na poznańskim Uniwersytecie Artystycznym. Od kilkunastu lat pracuje w agencjach reklamowych. Projektuje dla dużych i małych firm kampanie, strony internetowe, identyfikacje wizualne i druki. Zaczęło mu doskwierać, jak mało jest w nich autentyczności i odpowiedzialnych działań. Zapytał sam siebie, czy można działać inaczej?
+                </p>
+             
+              
+                <p class="about">
+                  Gosia i Dominik spotkali się na kawie.</tr>
+                  Wymyślili, że można połączyć wiedzę i zaangażowanie Gosi z doświadczeniem Dominika z zakresu projektowania dla biznesu i uznali, że działania, które nie szkodzą są koniecznością. Potrzebujemy ich na każdym kroku, a etyczny biznes to nowy biznes. 
+                </p>
+              
             </div>
           </div>
           <div class="we-are arrow-up">
