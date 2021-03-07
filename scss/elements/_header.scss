@@ -41,17 +41,17 @@
   &__navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 50%;
     padding: 0 4%;
 
     @media (min-width: $s) {
-      justify-content: space-around;
+      justify-content: flex-end;
       padding: 0 5%;
     }
 
     @media (min-width: $m) {
-      justify-content: space-between;
+      justify-content: flex-end
     }
     
     @media (min-width: $xxxl) {
@@ -61,6 +61,15 @@
     nav {
       display: flex;
       align-items: center;
+
+      @media (min-width: $xs) {
+        margin-right: 17%;
+      }
+
+      @media (min-width: $m) {
+        margin-right: 7%;
+      }
+
       ul {
         display: flex;
         flex-direction: row;
@@ -92,11 +101,13 @@
           font-size: 28px;
         }
         li {
-          padding-right: 30%;
+          margin-right: 30%;
 
-          @media (min-width: $xxxl) {
-            padding-right: 25px;
+
+          @media (min-width: $m) {
+            margin-right: 50%;
           }
+
           a {
             text-decoration: none;
             color: $basic;

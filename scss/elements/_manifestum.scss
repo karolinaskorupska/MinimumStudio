@@ -1,7 +1,7 @@
 .manifestum {
   width: 100%;
 
-  @media (min-width: $xxxl) {
+  @media (min-width: $l) {
     position: relative;
   }
 
@@ -12,7 +12,11 @@
     align-items: center;
     width: 100%;
 
-    @media (min-width: $xxxl) {
+    @media (min-width: $m) {
+      align-items: flex-start;
+    }
+
+    @media (min-width: $l) {
       display: block;
     }
 
@@ -21,7 +25,11 @@
       width: 90%;
       padding: 15px 0;
 
-      @media (min-width: $xxxl) {
+      @media (min-width: $m){
+        width: 70%;
+      }
+
+      @media (min-width: $l) {
         display: unset;
         position: absolute;
         top: 5%;
@@ -33,7 +41,7 @@
     img.second {
       display: none;
 
-      @media (min-width: $xxxl) {
+      @media (min-width: $l) {
         display: block;
         position: absolute;
         top: 45%;
@@ -50,14 +58,16 @@
         padding-left: 60px;
       }
       .p2 {
-        width: 38%;
-        padding-top: 55%;
-      }
-      .p3 {
-        width: 38%;
+        width: 50%;
+        padding-top: 42%;
         display: block;
         float: right;
-        padding-right: 13%;
+      }
+      .p3 {
+        display: block;
+        padding-top: 68%;
+        width: 50%;
+        padding-left: 47%;
       }
     }
   }
