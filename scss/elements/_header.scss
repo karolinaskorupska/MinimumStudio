@@ -6,6 +6,10 @@
   width: 100%;
   box-sizing: border-box;
 
+  @media (min-width: $s) {
+    justify-content: space-between;
+  }
+
   @media (min-width: $xxxl) {
     width: 100%;
     justify-content: space-between;
@@ -14,6 +18,20 @@
     a {
       img {
         width: 170px;
+  
+
+        @media (min-width: $m) {
+          width: 285px;
+        }
+
+        @media (min-width: $l) {
+          width: 350px;
+        }
+
+        @media (min-width: $xxl) {
+          width: 420px;
+        }
+
         @media (min-width: $xxxl) {
           width: 500px;
         }
@@ -23,13 +41,25 @@
   &__navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50%;
+    padding: 0 4%;
+
+    @media (min-width: $s) {
+      justify-content: space-around;
+      padding: 0 5%;
+    }
+
+    @media (min-width: $m) {
+      justify-content: space-between;
+    }
 
     @media (min-width: $xxxl) {
       justify-content: flex-end;
     }
     nav {
+      display: flex;
+      align-items: center;
       ul {
         display: flex;
         flex-direction: row;
@@ -37,14 +67,34 @@
         text-transform: uppercase;
         font-size: 12px;
 
+        @media (min-width: $s) {
+          font-size: 16px;
+        }
+
+        @media (min-width: $m) {
+          font-size: 18px;
+        }
+
+        @media (min-width: $l) {
+          font-size: 20px;
+        }
+
+        @media (min-width: $xl) {
+          font-size: 24px;
+        }
+
+        @media (min-width: $xxl) {
+          font-size: 26px;
+        }
+
         @media (min-width: $xxxl) {
           font-size: 28px;
         }
         li {
-          padding: 3px;
+          padding-right: 30%;
 
-          @media (min-width: $xxxl){
-            padding-right: 15px;
+          @media (min-width: $xxxl) {
+            padding-right: 25px;
           }
           a {
             text-decoration: none;
@@ -58,9 +108,9 @@
       }
     }
   }
-  
+
   &__toggle-wrapper {
-    @media(min-width:$xxxl){
+    @media (min-width: $xxxl) {
       padding: 0 5%;
     }
 
@@ -85,13 +135,21 @@
       background: $extraColor;
       transition: all 0.2s ease;
 
+      @media (min-width: $m) {
+        height: 24px;
+        width: 40px;
+      }
+
+      @media (min-width: $l) {
+        height: 30px;
+        width: 48px;
+      }
+
       @media (min-width: $xxxl) {
         height: 34px;
         width: 58px;
         border-radius: 36px;
-
       }
-    
 
       &::after {
         content: "";
@@ -104,6 +162,20 @@
         background: white;
         border: 1px solid $basic;
         transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+
+        @media (min-width: $m) {
+          height: 16px;
+          width: 16px;
+          top: 2px;
+          left: 2px;
+        }
+
+        @media (min-width: $l) {
+          height: 20px;
+          width: 20px;
+          top: 3px;
+          left: 3px;
+        }
 
         @media (min-width: $xxxl) {
           height: 23.3px;
