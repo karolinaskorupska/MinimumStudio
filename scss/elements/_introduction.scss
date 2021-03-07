@@ -9,7 +9,7 @@
     width: 90%;
     padding-top: 20%;
 
-    @media (min-width: $xxxl) {
+    @media (min-width: $l) {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -21,13 +21,13 @@
       display: flex;
       justify-content: flex-end;
 
-      @media (min-width: $xxxl) {
+      @media (min-width: $l) {
         justify-content: flex-end;
         padding-top: 10%;
       }
       img {
         width: 80%;
-        @media (min-width: $xxxl) {
+        @media (min-width: $l) {
           width: 60%;
         }
       }
@@ -35,7 +35,7 @@
     &__badge-container {
       width: 100%;
       padding: 8%;
-      @media (min-width: $xxxl) {
+      @media (min-width: $l) {
         padding:0;
         display: flex;
         justify-content: flex-end;
@@ -55,20 +55,46 @@
     align-items: center;
     padding-right: 3px;
 
-    @media (min-width: $xxxl) {
+    @media (min-width: $xxl) {
       width: 8%;
       padding-right: 0;
     }
 
     img.arrow-darkmode {
       width: 30px;
-      @media (min-width: $xxxl) {
+
+      @media (min-width: $m) {
+        width: 35px;
+      }
+
+      @media (min-width: $l) {
+        width: 42px;
+      }
+
+      @media (min-width: $xl) {
+        width: 50px;
+      }
+
+      @media (min-width: $xxl) {
         width: 60px;
       }
     }
     img.text-darkmode {
       width: 8px;
-      @media (min-width: $xxxl) {
+
+      @media (min-width: $m) {
+        width: 10px;
+      }
+
+      @media (min-width: $l) {
+        width: 12px;
+      }
+
+      @media (min-width: $xl) {
+        width: 15px;
+      }
+
+      @media (min-width: $xxl) {
         width: 20px;
       }
     }

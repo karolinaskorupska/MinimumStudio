@@ -53,9 +53,10 @@
     @media (min-width: $m) {
       justify-content: space-between;
     }
-
+    
     @media (min-width: $xxxl) {
       justify-content: flex-end;
+      padding: 0;
     }
     nav {
       display: flex;
