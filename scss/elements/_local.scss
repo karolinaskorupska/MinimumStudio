@@ -15,6 +15,7 @@
       img {
         width: 100%;
         position: absolute;
+        top: 0;
         
         @media(min-width: $xxxl){
           width: 60%;

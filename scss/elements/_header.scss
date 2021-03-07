@@ -42,6 +42,10 @@
         }
         li {
           padding: 3px;
+
+          @media (min-width: $xxxl){
+            padding-right: 15px;
+          }
           a {
             text-decoration: none;
             color: $basic;

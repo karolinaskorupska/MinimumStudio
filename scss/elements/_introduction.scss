@@ -19,7 +19,7 @@
     &__stones-container {
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
 
       @media (min-width: $xxxl) {
         justify-content: flex-end;
