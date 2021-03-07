@@ -1,13 +1,8 @@
 .local {
   width: 100%;
-
   &__container {
     width: 100%;
     position: relative;
-
-    @media(min-width: $xxxl){
-      padding-top: 70px;
-    }
 
     &__image-box {
       width: 100%;
@@ -16,41 +11,65 @@
         width: 100%;
         position: absolute;
         top: 0;
-        
-        @media(min-width: $xxxl){
+
+        @media(min-width:$m){
           width: 60%;
-          top: 0;
-          left: 5%;
+        }
+      
+        @media(min-width:$l){
+          font-size: 20px;
+        }
+      
+        @media(min-width:$xl){
+          font-size: 24px;
+        }
+      
+        @media(min-width:$xxxl){
+          font-size: 28px;
+        }
+      }
+
+      a {
+        padding-top: 90%;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-family: $Tight;
+        font-size: 12px;
+        padding-bottom: 8%;
+        
+
+        @media(min-width:$m){
+          font-size: 16px;
+          padding-bottom: 13%;
+          padding-left: 53%;
+          padding-top: 10%;
+        }
+      
+        @media(min-width:$l){
+          font-size: 20px;
+        }
+      
+        @media(min-width:$xl){
+          font-size: 24px;
+        }
+      
+        @media(min-width:$xxxl){
+          font-size: 28px;
         }
       }
     }
 
-    a {
-      padding-top: 90%;
-      text-align: center;
-      display: block;
-      text-transform: uppercase;
-      text-decoration: underline;
-      font-family: Tight;
-      font-size: 12px;
-      padding-bottom: 8%;
+    &__text-box {
 
-      @media(min-width: $xxxl){
-        position: absolute;
-        padding: 0;
-        font-size: 28px;
-        top: 300%;
-        right: 15%;
+      @media (min-width: $m) {
+        width: 50%;
+        float: right;
       }
 
-
-    }
-
-    @media (min-width: $xxxl) {
-      &__text-box {
+      @media (min-width: $xxxl) {
         width: 40%;
-        float: right;
-        padding: 30% 5% 0 5%;
       }
     }
   }

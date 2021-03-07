@@ -18,7 +18,6 @@
     a {
       img {
         width: 170px;
-  
 
         @media (min-width: $m) {
           width: 285px;
@@ -51,9 +50,9 @@
     }
 
     @media (min-width: $m) {
-      justify-content: flex-end
+      justify-content: flex-end;
     }
-    
+
     @media (min-width: $xxxl) {
       justify-content: flex-end;
       padding: 0;
@@ -102,7 +101,6 @@
         }
         li {
           margin-right: 30%;
-
 
           @media (min-width: $m) {
             margin-right: 50%;

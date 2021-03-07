@@ -61,19 +61,22 @@ get_header();
         <section class="section local">
           
           <div class="local__container">
+          <h3>lokalność</h3>
               <div class="local__container__image-box">
-                <h3>lokalność</h3>
-                <div class="local__container__image">
+                
+                
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/atom.png" alt="atom image">
-                </div>
+                
                 <a>z kim współpracujemy?</a>
             </div>
+
+            <div class="local__container__text-box">
+              <p class="local__container__text--paragraph1">
+                Na globalne wyzwania odpowiadamy lokalnymi rozwiązaniami, tworzymy sieci współpracy z działającymi wokół nas projektantami, wytwórcami i producentami.
+              </p>
+            </div>
           </div>
-          <div class="local__container__text-box">
-            <p class="local__container__text--paragraph1">
-            Na globalne wyzwania odpowiadamy lokalnymi rozwiązaniami, tworzymy sieci współpracy z działającymi wokół nas projektantami, wytwórcami i producentami.
-            </p>
-          </div>
+
           <div class="local arrow-up">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-up.png" alt="arrow-up"> 
           </div>
