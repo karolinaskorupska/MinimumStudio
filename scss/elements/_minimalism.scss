@@ -5,7 +5,7 @@
     width: 100%;
   
 
-    @media(min-width:$xxxl) {
+    @media(min-width:$m) {
       display: flex;
       flex-direction: row-reverse;
     }
@@ -29,6 +29,14 @@
         font-size: 12px;
         color: $basic;
         padding: 25%;
+
+        @media(min-width:$l){
+          font-size: 20px;
+        }
+      
+        @media(min-width:$xl){
+          font-size: 24px;
+        }
 
         @media(min-width:$xxxl) {
           padding: 0;

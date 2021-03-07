@@ -42,8 +42,8 @@ h3 {
   line-height: 36px;
   font-family: $NarrowLight;
 
-  @media(min-width:$m){
-    font-size: 38px;
+  @media(min-width:$s){
+    font-size: 32px;
     line-height: 42px;
     padding: 20px 60px;
   }
