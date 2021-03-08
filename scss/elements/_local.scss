@@ -5,19 +5,23 @@
     width: 100%;
     position: relative;
 
-    @media(min-width: $xxxl){
-      padding-top: 70px;
-    }
-
     &__image-box {
       width: 100%;
+
+      h3 {
+        padding-top: 10px;
+
+        @media (min-width: $xxxl) {
+          padding-top: 50px;
+        }
+      }
 
       img {
         width: 100%;
         position: absolute;
         top: 0;
-        
-        @media(min-width: $xxxl){
+
+        @media (min-width: $xxxl) {
           width: 60%;
           top: 0;
           left: 5%;
@@ -31,19 +35,17 @@
       display: block;
       text-transform: uppercase;
       text-decoration: underline;
-      font-family: Tight;
-      font-size: 12px;
+      font-family: $Tight;
+      font-size: 10px;
       padding-bottom: 8%;
 
-      @media(min-width: $xxxl){
+      @media (min-width: $xxxl) {
         position: absolute;
         padding: 0;
         font-size: 28px;
         top: 300%;
         right: 15%;
       }
-
-
     }
 
     @media (min-width: $xxxl) {

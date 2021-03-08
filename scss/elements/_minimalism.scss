@@ -1,6 +1,14 @@
 .minimalism {
   width: 100%;
 
+  h3 {
+    padding-top: 10px;
+
+    @media (min-width: $xxxl) {
+      padding-top: 50px;
+    }
+  }
+
   &__container {
     width: 100%;
   
@@ -25,8 +33,8 @@
         display: block;
         text-transform: uppercase;
         text-decoration: underline;
-        font-family: Tight;
-        font-size: 12px;
+        font-family: $Tight;
+        font-size: 10px;
         color: $basic;
         padding: 25%;
 

@@ -23,8 +23,13 @@
       }
 
       p.close {
+        font-size: 20px;
+        line-height: 28px;
+
         @media (min-width: $xxxl) {
           margin: 10% 0;
+          font-size: 42px;
+          line-height: 56px;
         }
       }
 
@@ -32,15 +37,14 @@
         display: inline-block;
         display: block;
         width: 90%;
-        font-size: 18px;
-        font-family: "Narrow", sans-serif;
+        font-family: $Narrow;
         font-size: 20px;
         line-height: 26px;
         color: #000;
 
         @media (min-width: $xxxl) {
-          font-size: 48px;
-          line-height: 60px;
+          font-size: 42px;
+          line-height: 56px;
           padding: 0 60px;
           display: inline-block;
 
@@ -56,11 +60,11 @@
       }
 
       p.about {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 18px;
         @media (min-width: $xxxl) {
           font-size: 39px;
-          line-height: 49px;
+          line-height: 52px;
         }
       }
     }

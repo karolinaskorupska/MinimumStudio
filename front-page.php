@@ -59,7 +59,7 @@ get_header();
          </section>
 
         <section class="section local">
-          
+          <h2></h2>
           <div class="local__container">
               <div class="local__container__image-box">
                 <h3>lokalność</h3>

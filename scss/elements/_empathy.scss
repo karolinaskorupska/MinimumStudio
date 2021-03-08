@@ -1,6 +1,15 @@
 .empathy {
   width: 100%;
 
+
+  h3 {
+    padding-top: 10px;
+
+    @media (min-width: $xxxl) {
+      padding-top: 50px;
+    }
+  }
+
   &__container {
     width: 100%;
   
