@@ -48,7 +48,7 @@ get_header();
              <div class="authentity__container__text">
                
                <p class="authentity__container__text--paragraph1">
-               Liczą się dla nas autentyczność i uczciowść, dlatego unikamy fałszu. Zaproponujemy Ci najbardziej optymalne rozwiązania, które zostały przebadane pod kątem ich wpływu na środowisko.
+               Liczą się dla nas autentyczność i uczciwść, dlatego unikamy fałszu. Zaproponujemy Ci najbardziej optymalne rozwiązania, które zostały przebadane pod kątem ich wpływu na środowisko.
                </p>
              </div>
 
@@ -195,7 +195,7 @@ get_header();
                   Projektujemy <span>opakowania</span>, które są ładne i funkcjonalne, a w procesie ich produkcji zasoby są wykorzystywane w zrównoważony sposób.
                 </li>
                 <li>
-                  Korzystamy z nowych technologoo, które mogą zastąpić nieprzyjazne środowisku tradycyjne formy reklamy, dlatego zajmujemy się również produkcją i postprodukcją
+                  Korzystamy z nowych technologii, które mogą zastąpić nieprzyjazne środowisku tradycyjne formy reklamy, dlatego zajmujemy się również produkcją i postprodukcją
                   filmów i materiałów <span>wideo</span> oraz tworzeniem animacji.
                 </li>
               </ul>
