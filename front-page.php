@@ -112,7 +112,7 @@ get_header();
             </div>
             <div class="empathy__container__text-box">
               <p class="empathy__container__text-box--paragraph1">
-              Nie działamy "na pamięć", a każde zadanie jest dla nas wyjątkowe. W projektowaniu stawiamy odbiorcę w centrum, a w naszych działaniach kierujemy się empatią. Uważnie przyglądamy się
+              Nie działamy "na pamięć", a każde zadanie jest dla nas wyjątkowe. </br> W projektowaniu stawiamy odbiorcę w centrum, a w naszych działaniach kierujemy się empatią. Uważnie przyglądamy się
               zmieniającym się wraz z rzeczywistością potrzebom odbiorców. Robimy tak, by lepiej zrozumieć człowieka, do którego się zwracamy.
               </p>
               <p class="empathy__container__text-box--paragraph2">
@@ -162,13 +162,13 @@ get_header();
             <div class="what-matters__container__1">
               <p class="what-matters__container--paragraph1">
                 <span>Lubimy i robimy projektowanie graficzne.</span>
-                Zajmujemy się zarówno </br> kompleksowym opracowaniem i wykonaniem identyfikacji wizualnej marek,</br> jak i projektowaniem druków i opakowań,
-                tworzeniem stron i aplikacji,</br> wymyślaniem gadżetów, a przy okazji badaniem, jak nasze projekty i </br>produkty oddziałują na otoczenie.
+                Zajmujemy się zarówno kompleksowym opracowaniem i wykonaniem identyfikacji wizualnej marek, jak i projektowaniem druków i opakowań,
+                tworzeniem stron i aplikacji, wymyślaniem gadżetów, a przy okazji badaniem, jak nasze projekty i produkty oddziałują na otoczenie.
               </p>
               <p class="what-matters__container--paragraph2">
-              Zawsze zaczynamy od rozmowy i zastanowienia się, kto jest Twoim odbiorcą</br> i jakie są jego potrzeby, jakimi wartościami kieruje się Twoja marka i w jaki</br>
-              sposób możemy to połączyć tworząc odpowiednią identyfikację wizualną.</br>
-              Ustalamy cele i założenia. Kolejnym ważnym krokiem jest praca nad znakiem</br> firmowym, a następnie budujemy całe środowisko materiałów 
+              Zawsze zaczynamy od rozmowy i zastanowienia się, kto jest Twoim odbiorcą i jakie są jego potrzeby, jakimi wartościami kieruje się Twoja marka i w jaki
+              sposób możemy to połączyć tworząc odpowiednią identyfikację wizualną.
+              Ustalamy cele i założenia. Kolejnym ważnym krokiem jest praca nad znakiem firmowym, a następnie budujemy całe środowisko materiałów 
               (obejmujące takie obszary jak druki firmowe, promocja, outdoor, przestrzeń internetu), tworzące czytelny i spójny wizerunek  Twojej działalności.
               </p>
             </div>
@@ -180,7 +180,7 @@ get_header();
               <ul>
                 <li>
                   Jeżeli masz mniejsze potrzeby, ale zależy Ci na dobrym projektowaniu graficznym stworzymy dla Ciebie
-                  <span> plakaty, wydawnicywa, ilustracje, okładki, foldery</span>
+                  <span> plakaty, wydawnictwa, ilustracje, okładki, foldery</span>
                   i zajmiemy się składem oraz przygotowaniem materiałów do druku.
                 </li>
                 <li>

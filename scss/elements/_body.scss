@@ -15,7 +15,7 @@ h2 {
   text-transform: uppercase;
   text-align: end;
   @media(min-width:$xxxl){
-    font-size: 28px;
+    font-size: 26px;
     padding: 20px 50px;
   }
 }
@@ -29,6 +29,7 @@ h3 {
   @media(min-width:$xxxl) {
     font-size: 78px;
     padding: 20px 60px;
+    margin-top: 40px;
   }
 }
 
@@ -41,7 +42,7 @@ p {
   @media(min-width:$xxxl){
     font-size: 48px;
     line-height: 60px;
-    padding: 20px 60px;
+    padding: 22px 60px;
     display: inline-block;
   }
 }

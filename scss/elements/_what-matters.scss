@@ -18,8 +18,8 @@
         width: 100%;
 
         p {
-          line-height: 64px;
-          font-size: 52px;
+          font-size: 48px;
+          line-height: 60px;
         }
       }
     }
@@ -68,7 +68,7 @@
           font-size: 14px;
           line-height: 18px;
           color: $basic;
-          padding: 10px 25px 10px 30px;
+          padding: 10px 25px 10px 43px;
           list-style-position: outside;
           list-style-type: none;
           list-style-image: url("assets/images/icons/cross.png");
@@ -84,7 +84,7 @@
             list-style-image: url("assets/images/icons/cross_big.png");
           }
           li {
-            padding: 16px 0;
+            padding: 10px 0;
             span {
               background-color: $extraColor;
               
@@ -97,7 +97,7 @@
         .p3 {
           font-size: 14px;
           line-height: 18px;
-
+          padding-left: 39px;
           @media (min-width: $xxxl) {
             border-left: 1px solid $basic;
             width: 100%;
