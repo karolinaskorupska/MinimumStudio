@@ -66,6 +66,7 @@
   &__toggle-wrapper {
     @media (min-width: $xxxl) {
       padding: 0 5%;
+      margin-top: 2px;
     }
 
     input[type="checkbox"] {
